@@ -1,0 +1,104 @@
+<linker>
+    <!-- Unity SuperSocket 核心程序集保护 -->
+    <assembly fullname="Assembly-CSharp" preserve="all"/>
+    <assembly fullname="UnitySuperSocket" preserve="all"/>
+    
+    <!-- ProtoBuf相关程序集 -->
+    <assembly fullname="protobuf-net" preserve="all"/>
+    <assembly fullname="ProtoBuf.Net" preserve="all"/>
+    
+    <!-- UniTask相关程序集 -->
+    <assembly fullname="UniTask" preserve="all"/>
+    <assembly fullname="Cysharp.Threading.Tasks" preserve="all"/>
+    
+    <!-- SuperSocket相关程序集 -->
+    <assembly fullname="SuperSocket.Client" preserve="all"/>
+    <assembly fullname="SuperSocket.Connection" preserve="all"/>
+    <assembly fullname="SuperSocket.ProtoBase" preserve="all"/>
+    <assembly fullname="SuperSocket.Log" preserve="all"/>
+    
+    <!-- 保护核心网络类型 -->
+    <type fullname="UnitySuperSocket.UnitySuperSocketClient" preserve="all"/>
+    <type fullname="UnitySuperSocket.GameProtocolPackageDecoder" preserve="all"/>
+    <type fullname="UnitySuperSocket.GameProtocolPackageEncoder" preserve="all"/>
+    <type fullname="UnitySuperSocket.GameProtocolPipelineFilter" preserve="all"/>
+    <type fullname="UnitySuperSocket.GameSendingPackage" preserve="all"/>
+    <type fullname="UnitySuperSocket.GameReceivingPackage" preserve="all"/>
+    <type fullname="UnitySuperSocket.NetworkConnectEventArgs" preserve="all"/>
+    <type fullname="UnitySuperSocket.CloseEventArgs" preserve="all"/>
+    
+    <!-- 保护网络管理器 -->
+    <type fullname="ELEXNetwork.NetManager" preserve="all"/>
+    
+    <!-- 保护示例消息类型 -->
+    <type fullname="Samples.ProtoBufChat.LoginRequest" preserve="all"/>
+    <type fullname="Samples.ProtoBufChat.LoginResponse" preserve="all"/>
+    <type fullname="Samples.ProtoBufChat.ChatMessage" preserve="all"/>
+    <type fullname="Samples.ProtoBufChat.ChatChannelType" preserve="all"/>
+    <type fullname="Samples.ProtoBufChat.PlayerInfo" preserve="all"/>
+    <type fullname="Samples.ProtoBufChat.HeartbeatMessage" preserve="all"/>
+    <type fullname="Samples.ProtoBufChat.ErrorResponse" preserve="all"/>
+    
+    <!-- 保护ProtoBuf核心类型 -->
+    <type fullname="ProtoBuf.ProtoContractAttribute" preserve="all"/>
+    <type fullname="ProtoBuf.ProtoMemberAttribute" preserve="all"/>
+    <type fullname="ProtoBuf.ProtoEnumAttribute" preserve="all"/>
+    <type fullname="ProtoBuf.IExtensible" preserve="all"/>
+    <type fullname="ProtoBuf.Extensible" preserve="all"/>
+    <type fullname="ProtoBuf.Serializer" preserve="all"/>
+    <type fullname="ProtoBuf.Meta.RuntimeTypeModel" preserve="all"/>
+    <type fullname="ProtoBuf.Meta.TypeModel" preserve="all"/>
+    
+    <!-- 保护System核心类型 -->
+    <type fullname="System.Collections.Generic.Dictionary`2" preserve="all"/>
+    <type fullname="System.Collections.Generic.List`1" preserve="all"/>
+    <type fullname="System.Collections.Concurrent.ConcurrentQueue`1" preserve="all"/>
+    <type fullname="System.Threading.Tasks.Task" preserve="all"/>
+    <type fullname="System.Threading.Tasks.Task`1" preserve="all"/>
+    <type fullname="System.Threading.CancellationToken" preserve="all"/>
+    
+    <!-- 保护网络相关System类型 -->
+    <type fullname="System.Net.Sockets.Socket" preserve="all"/>
+    <type fullname="System.Net.Sockets.TcpClient" preserve="all"/>
+    <type fullname="System.Net.IPAddress" preserve="all"/>
+    <type fullname="System.Net.IPEndPoint" preserve="all"/>
+    <type fullname="System.Net.Dns" preserve="all"/>
+    <type fullname="System.Net.Security.SslStream" preserve="all"/>
+    <type fullname="System.Security.Authentication.SslProtocols" preserve="all"/>
+    
+    <!-- 保护序列化相关类型 -->
+    <type fullname="System.IO.MemoryStream" preserve="all"/>
+    <type fullname="System.IO.Stream" preserve="all"/>
+    <type fullname="System.Buffers.ArrayPool`1" preserve="all"/>
+    <type fullname="System.Buffers.ReadOnlySequence`1" preserve="all"/>
+    <type fullname="System.Buffers.IBufferWriter`1" preserve="all"/>
+    <type fullname="System.Span`1" preserve="all"/>
+    <type fullname="System.ReadOnlySpan`1" preserve="all"/>
+    <type fullname="System.Memory`1" preserve="all"/>
+    <type fullname="System.ReadOnlyMemory`1" preserve="all"/>
+    
+    <!-- Unity特定类型 -->
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all"/>
+    <type fullname="UnityEngine.GameObject" preserve="all"/>
+    <type fullname="UnityEngine.Transform" preserve="all"/>
+    <type fullname="UnityEngine.Debug" preserve="all"/>
+    <type fullname="UnityEngine.Application" preserve="all"/>
+    <type fullname="UnityEngine.SystemInfo" preserve="all"/>
+    <type fullname="UnityEngine.Time" preserve="all"/>
+    
+    <!-- 委托和事件类型 -->
+    <type fullname="System.EventHandler" preserve="all"/>
+    <type fullname="System.EventHandler`1" preserve="all"/>
+    <type fullname="System.Action" preserve="all"/>
+    <type fullname="System.Action`1" preserve="all"/>
+    <type fullname="System.Action`2" preserve="all"/>
+    <type fullname="System.Action`3" preserve="all"/>
+    <type fullname="System.Func`1" preserve="all"/>
+    <type fullname="System.Func`2" preserve="all"/>
+    <type fullname="System.Func`3" preserve="all"/>
+    
+    <!-- 如果你有自定义的ProtoBuf消息类型，请在这里添加 -->
+    <!-- 示例：
+    <type fullname="YourNamespace.YourMessageType" preserve="all"/>
+    -->
+</linker>
